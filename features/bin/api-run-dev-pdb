@@ -1,7 +1,0 @@
-#!/bin/bash -eux
-
-bin="`dirname "$0"`"
-
-export BUBO_PDB='true'
-
-exec "$bin"/api-run-dev-noreload "$@"

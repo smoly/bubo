@@ -1,7 +1,0 @@
-#!/bin/bash -eux
-
-bin="`dirname "$0"`"
-bin="`"$bin"/normpath "$bin"`"
-
-# HACK
-exec "$bin"/py-spy --pid "`pgrep -nf 'python /dev/fd/'`" "$@"

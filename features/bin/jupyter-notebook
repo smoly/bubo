@@ -1,5 +1,0 @@
-#!/bin/bash -eu
-
-# TODO WIP Untested (see "WIP" in Dockerfile)
-
-exec juypter notebook --allow-root --no-browser "$@"

@@ -1,6 +1,0 @@
-#!/bin/bash -eu
-
-bin="`dirname "$0"`"
-
-"$bin"/mount-bubo-data-ro-quiet
-"$bin"/show-mounts

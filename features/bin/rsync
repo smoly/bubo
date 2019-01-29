@@ -1,3 +1,0 @@
-#!/bin/bash -eux
-
-exec rsync -azv --delete -FF --links --prune-empty-dirs "$@"

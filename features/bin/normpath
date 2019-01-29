@@ -1,7 +1,0 @@
-#!/bin/bash -eu
-
-bin="`dirname "$0"`"
-
-path="$1"; shift
-
-echo "`"$bin"/relpath "$path" .`"

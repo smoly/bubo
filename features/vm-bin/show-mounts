@@ -1,3 +1,0 @@
-#!/bin/bash -eu
-
-(set -x; mount) | egrep '/mnt/disks|/data'

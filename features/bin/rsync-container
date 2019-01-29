@@ -1,6 +1,0 @@
-#!/bin/bash -eu
-
-bin="`dirname "$0"`"
-bin="`"$bin"/normpath "$bin"`"
-
-exec "$bin"/rsync --rsh="$bin/ssh-container" "$@"

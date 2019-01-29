@@ -1,9 +1,0 @@
-[submodule "Surge"]
-  path = Birdgram/ios/Surge
-  url = git@github.com:jdanbrown/Surge.git
-[submodule "swift-npy"]
-  path = Birdgram/ios/swift-npy
-  url = git@github.com:qoncept/swift-npy.git
-[submodule "iOSTagLib"]
-  path = Birdgram/ios/Bubo/iOSTagLib
-  url = git@github.com:jdanbrown/iOSTagLib.git

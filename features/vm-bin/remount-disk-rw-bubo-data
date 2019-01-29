@@ -1,6 +1,0 @@
-#!/bin/bash -eu
-
-bin="`dirname "$0"`"
-
-umount '/data'
-mount --bind '/mnt/disks/disk-bubo-data' '/data'
