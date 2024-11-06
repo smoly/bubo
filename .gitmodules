@@ -1,0 +1,6 @@
+[submodule "app/react-native-audio"]
+	path = app/react-native-audio
+	url = git@github.com:jsierles/react-native-audio.git
+[submodule "caffe-root"]
+	path = caffe-root
+	url = https://github.com/BVLC/caffe.git

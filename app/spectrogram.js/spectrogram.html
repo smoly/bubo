@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- TODO for quick dev -->
+    <!-- Broken? <script src="http://www.accubirder.com/bquery/v1.js"></script> -->
+    <!-- - TODO Update to match new barchart api that we figured out in the bubo backend (api/ebird.py) -->
+    <script src="lib/bquery/v1.js"></script>
+
+    <script src="spectrogram.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var spectrogram = new Spectrogram("viewport");
+        navigator.getUserMedia({audio: true}, spectrogram.gotStream, function() { console.log("error"); });
+      })
+    </script>
+  </head>
+  <body>
+    <canvas id="viewport" height="512" width="700" />
+  </body>
+</html>
